@@ -7,9 +7,88 @@ import numpy as np
 
 # 1. Data Preparation
 def load_cs_concepts():
-    # Load CS concepts and their explanations
-    # Return a list of tuples (concept, explanation)
-    pass
+    return [
+        (
+            "Binary Search",
+            "An efficient algorithm for finding an item in a sorted list by repeatedly dividing the search interval in half.",
+        ),
+        (
+            "Big O Notation",
+            "A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.",
+        ),
+        (
+            "Linked List",
+            "A linear data structure where elements are stored in nodes, and each node points to the next node in the sequence.",
+        ),
+        (
+            "Stack",
+            "A last-in, first-out (LIFO) data structure that supports two main operations: push (add an element) and pop (remove the most recently added element).",
+        ),
+        (
+            "Queue",
+            "A first-in, first-out (FIFO) data structure that supports two main operations: enqueue (add an element) and dequeue (remove the oldest element).",
+        ),
+        (
+            "Recursion",
+            "A method of solving problems where the solution depends on solutions to smaller instances of the same problem.",
+        ),
+        (
+            "Hash Table",
+            "A data structure that implements an associative array abstract data type, a structure that can map keys to values using a hash function.",
+        ),
+        (
+            "Depth-First Search",
+            "A graph traversal algorithm that explores as far as possible along each branch before backtracking.",
+        ),
+        (
+            "Breadth-First Search",
+            "A graph traversal algorithm that explores all the vertices of a graph at the present depth prior to moving on to the vertices at the next depth level.",
+        ),
+        (
+            "Object-Oriented Programming",
+            "A programming paradigm based on the concept of 'objects', which can contain data and code. The key principles are encapsulation, inheritance, and polymorphism.",
+        ),
+        (
+            "Sorting Algorithms",
+            "Algorithms for arranging elements in a specific order, such as numerical or lexicographical. Common examples include Bubble Sort, Merge Sort, and Quick Sort.",
+        ),
+        (
+            "Binary Tree",
+            "A tree data structure in which each node has at most two children, referred to as the left child and the right child.",
+        ),
+        (
+            "Dynamic Programming",
+            "A method for solving complex problems by breaking them down into simpler subproblems and storing the results for future use.",
+        ),
+        (
+            "API (Application Programming Interface)",
+            "A set of definitions, protocols, and tools for building software. It specifies how software components should interact.",
+        ),
+        (
+            "Multithreading",
+            "A programming concept where multiple threads (lightweight processes) run concurrently within a single program, sharing the same resources.",
+        ),
+        (
+            "Database Index",
+            "A data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space.",
+        ),
+        (
+            "Regular Expression",
+            "A sequence of characters that defines a search pattern, mainly for use in pattern matching with strings.",
+        ),
+        (
+            "Version Control",
+            "A system that records changes to a file or set of files over time so that you can recall specific versions later.",
+        ),
+        (
+            "Cache",
+            "A hardware or software component that stores data so that future requests for that data can be served faster.",
+        ),
+        (
+            "Compiler",
+            "A program that translates code written in a high-level programming language into low-level machine code.",
+        ),
+    ]
 
 
 # 2. Text Embedding
